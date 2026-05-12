@@ -27,3 +27,9 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## Infos à savoir
+
+L'API ne fonctionne pas pour DELETE des participants.
+
+L'UI est minimaliste, la creation des participants pourrait se faire sur une autre page mais sans gestion des participants de maniere globale (systeme de compte utilisateurs) ce n'est pas utile je pense.
