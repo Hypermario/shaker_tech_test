@@ -9,10 +9,10 @@ import {
     getParticipantsByEvent,
     updateParticipantStatus,
 } from '../api/participants'
-import { AddParticipantSection } from '../components/AddParticipantSection'
 import { DeleteErrorNotification } from '../components/NotificationToast'
 import { EventInfoCard } from '../components/EventInfoCard'
 import { LoadingSpinner } from '../components/LoadingSpinner'
+import { ParticipantForm } from '../components/ParticipantForm'
 import { ParticipantSearchBar } from '../components/ParticipantSearchBar'
 import { ParticipantsTable } from '../components/ParticipantsTable'
 import { countComingParticipants, isComingStatus } from '../lib/businessRules'
@@ -217,7 +217,7 @@ export const EventPage = () => {
 
             <EventInfoCard event={event} remainingSpots={remainingSpots} />
 
-            <AddParticipantSection
+            <ParticipantForm
                 disabled={!canCreateParticipant}
                 onCreate={handleCreateParticipant}
             />

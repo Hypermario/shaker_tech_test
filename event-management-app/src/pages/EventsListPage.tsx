@@ -43,7 +43,7 @@ export const EventsListPage = () => {
                     Events List
                 </h2>
                 <p className="mt-1 text-slate-700">
-                    Select an event to manage participant search, statuses and capacity.
+                    Select an event to manage participants.
                 </p>
             </div>
 
