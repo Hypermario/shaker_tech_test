@@ -10,19 +10,24 @@ Un frontend pour gérer la participation à des évenements.
 
 ## Setup
 
-1. Installation:
+1. Aller dans le dosser de l'application:
+```bash
+cd event-management-app
+```
+
+2. Installation:
 
 ```bash
 npm install
 ```
 
-2. Run en dev:
+3. Run en dev:
 
 ```bash
 npm run dev
 ```
 
-3. Build pour prod (compilation par vite):
+4. Build pour prod (compilation par vite):
 
 ```bash
 npm run build
