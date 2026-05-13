@@ -1,5 +1,5 @@
 import type { Event } from '../types'
-import { formatDate } from '../lib/format'
+import { formatDate } from '../utils/formatDate'
 
 interface EventInfoCardProps {
     event: Event

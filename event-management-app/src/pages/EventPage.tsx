@@ -15,7 +15,7 @@ import { LoadingSpinner } from '../components/LoadingSpinner'
 import { ParticipantForm } from '../components/ParticipantForm'
 import { ParticipantSearchBar } from '../components/ParticipantSearchBar'
 import { ParticipantsTable } from '../components/ParticipantsTable'
-import { countComingParticipants, isComingStatus } from '../lib/businessRules'
+import { countComingParticipants, isComingStatus } from '../utils/comingStatuses'
 import type { Participant, ParticipantStatus } from '../types'
 
 

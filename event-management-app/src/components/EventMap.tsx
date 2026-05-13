@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { CreateEventPanel } from './CreateEventPanel'
-import { formatDate } from '../lib/format'
+import { formatDate } from '../utils/formatDate'
 import type { CreateEventInput, Event } from '../types'
 
 interface EventMapProps {
