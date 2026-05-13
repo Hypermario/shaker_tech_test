@@ -1,4 +1,4 @@
-import { useMemo, useState, type FormEvent } from 'react'
+import { useMemo, useState, type SyntheticEvent } from 'react'
 import { NotificationToast } from './NotificationToast'
 import type { CreateEventInput } from '../types'
 
@@ -40,7 +40,7 @@ export const CreateEventPanel = ({ onCreate }: CreateEventPanelProps) => {
         setCreateError(null)
     }
 
-    const handleCreate = async (event: FormEvent<HTMLFormElement>): Promise<void> => {
+    const handleCreate = async (event: SyntheticEvent<HTMLFormElement, SubmitEvent>): Promise<void> => {
         event.preventDefault()
 
         const startTimestamp = Math.floor(new Date(startsAt).getTime() / 1000)
